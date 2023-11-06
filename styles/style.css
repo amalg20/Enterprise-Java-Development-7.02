@@ -1,0 +1,127 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*    Iteration 1: Navbar      */
+.navbar {
+  top: 0;
+  width: 100%;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  z-index: 2;
+}
+.navbar img {
+  width: 150px;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 0 10px;
+  display: inline-block;
+  padding-right: 30px;
+  margin-left: 15px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*    Iteration 2: Large image background with text      */
+.large-image {
+  background-image: url("/images/landing.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  padding: 100px 0;
+  padding-bottom: 50px;
+}
+.large-image h1 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.large-image p {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin-bottom: 400px;
+}
+#title {
+  display: flex;
+  justify-content: center;
+}
+#title h1 {
+  border-bottom: 2px solid #00b172;
+}
+
+/*    Iteration 3: What is on Spotify section     */
+.whats-on-spotify {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+.feature {
+  flex: 0 0 calc(33.33% - 20px);
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.feature img {
+  max-width: 80px;
+}
+.feature h2 {
+  color: #00b172;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.feature p {
+  font-size: 14px;
+}
+
+/*    Iteration 4: The green sectionn     */
+#section3 {
+  padding: 40px 80px;
+  background-color: #00b172;
+  margin: 0 20px;
+  position: relative;
+  height: 700px;
+}
+.listen {
+  width: 30%;
+}
+#player {
+  width: 350px;
+  float: right;
+}
+.listen div p,
+.listen div h2 {
+  color: white;
+}
+#section3 h1 {
+  color: white;
+  padding-bottom: 5px;
+  border-bottom: 3px solid white;
+  display: inline;
+  font-size: 30px;
+}
+.listen div h2 {
+  margin: 40px 0;
+}
+.listen div p {
+  font-size: 20px;
+}
+#logo {
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
